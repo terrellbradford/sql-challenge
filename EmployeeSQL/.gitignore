@@ -5,7 +5,7 @@ config.py
 __pycache__/
 *.py[cod]
 *$py.class
-
+ 
 # C extensions
 *.so
 
@@ -20,6 +20,7 @@ eggs/
 lib/
 lib64/
 parts/
+test/
 sdist/
 var/
 wheels/
