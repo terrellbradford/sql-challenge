@@ -1,3 +1,6 @@
+--T.Bradford
+--July 2021
+
 -- List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 SELECT employees.emp_no, employees.last_name, employees.first_name, employees.sex, salaries.salary
@@ -57,3 +60,8 @@ SELECT last_name, COUNT(last_name) AS "Last Name Frequency Count"
 FROM employees
 GROUP BY last_name
 ORDER BY "Last Name Frequency Count" DESC;
+
+--You look down at your badge to see that your employee ID number is 499942
+SELECT employees.emp_no, employees.last_name, employees.first_name
+FROM employees
+WHERE emp_no = '499942'

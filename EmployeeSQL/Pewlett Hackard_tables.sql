@@ -1,3 +1,6 @@
+--T.Bradford
+--July 2021
+
 CREATE TABLE titles(
 	title_id VARCHAR PRIMARY KEY,
 	title VARCHAR NOT NULL
